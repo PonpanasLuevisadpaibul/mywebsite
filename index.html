@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>YOASOBI - Home</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="css/ie7.css" type="text/css">
+	<![endif]-->
+	<script>
+		window.alert("Welcome to my website Professor Fatih Ozaydin")
+	</script>
+	<style>
+		#newMe {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div>
+			<a href="index.html" id="logo"><img src="images/logo.png" width=200px height=45px alt="logo"></a>
+			<ul>
+				<li class="selected">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="theBook.html">Albums</a>
+				</li>
+				<!-- <li>
+					<a href="blog.html">Blog</a>
+				</li>
+				<li>
+					<a href="locator.html">Store Locator</a>
+				</li> -->
+			</ul>
+		</div>
+		<div class="featured">
+			<!-- <img src="images/bg-absolute.png" alt=""> -->
+			<div>
+				<!-- <h3>Our new song</h3> -->
+				
+			</div>
+		</div>
+	</div>
+	<div class="body">
+		<div>
+			<p style="color: #000;">I have changed the css of the background color of this body to the pink color from the album color of THE BOOK
+				, as well as changing the css for the background image to the image above. I also added YOASOBI's logo to the top bar.
+				 The button below uses javaScript to show a hidden image of the album cover of YOASOBI's new song.
+			</p>
+			<h3>Click this button for YOASOBI's new song: NEW ME</h3>
+			<button onclick="newMe()">NEW ME</button>
+				<script>
+				function newMe() {
+					document.getElementById("newMe").style.display="block";
+				}
+				</script>
+
+			<img id="newMe" src="images/newMe.jpg" height="582px">
+			<h2>Introducing the YOASOBI band members</h2>
+			<p>
+				YOASOBI is a Japanese pop duo formed in 2019, consisting of composer Ayase and singer-songwriter Ikura. 
+				Their band members for live shows consists of Hikaru Yamamoto as the bassist, AssH as the guitarist, 
+				Honogumo as the drummer and Zakuro Misohagi as the keyboardist/backing vocals.
+			</p>
+			<ul>
+				<li>
+					<a><img src="images/ikura.jpg" width=218 height=349 alt=""></a> <a>Ikura (Vocalist)</a>
+				</li>
+				<li>
+					<a><img src="images/ayase.png" width=218 height=349 alt=""></a> <a>Ayase (Composer)</a>
+				</li>
+				<li>
+					<a><img src="images/hikaru.jpg" width=218 height=349 alt=""></a> <a>Hikaru (Bassist)</a>
+				</li>
+				<li>
+					<a><img src="images/assh.jpg" width=218 height=349 alt=""></a> <a>AssH (Guitarist)</a>
+				</li>
+				<li>
+					<a><img src="images/honogumo.jpg" width=218 height=349 alt=""></a> <a>Honogumo (Drummer)</a>
+				</li>
+				<li>
+					<a><img src="images/zakuro.png" width=218 height=349 alt=""></a> <a>Zakuro (Keyboardist)</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer">
+		<div>
+			<p>
+				Ponpanas Luevisadpaibul ID:24224531
+			</p>
+			<!-- <div class="connect">
+				<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">Twitter</a> <a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">Facebook</a> <a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">Google+</a>
+			</div> -->
+		</div>
+	</div>
+</body>
+</html>
